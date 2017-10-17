@@ -35,6 +35,7 @@ class Agent {
                    rango.push(temp2);
               }
           }
+          console.log(JSON.stringify(rango));
            return rango; 
       }
       function convert (element, indexC, indexF){
